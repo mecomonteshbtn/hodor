@@ -12,6 +12,6 @@ url = 'http://158.69.76.135/level0.php'
 playload = {'id': '1574', 'holdthedoor': 'submit'}
 
 req = requests.get(url)
-while '1574  </td>\n  <td>\n1024' not in req.text:
+for i in range(1024):
     req = requests.post(url, data=playload)
 print('Well done, Voting complete for level 0')
