@@ -36,6 +36,14 @@ Write a script or a program that votes 1024 times for your id here: [http://158.
 Write a script or a program that votes 1024 times for your id here: [http://158.69.76.135/level3.php](http://158.69.76.135/level3.php)
 
 *    You can use the language of your choice
+```
+Install:
+
+sudo apt-get update
+sudo apt-get install tesseract-ocr
+sudo apt-get install libtesseract-dev
+sudo apt-get install pytesseract
+```
 
 ### [4. Level 4](./level_4/level4.py)
 
